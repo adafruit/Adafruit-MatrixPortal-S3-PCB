@@ -1,9 +1,9 @@
-## Adafruit Adafruit Matrix Portal S3 CircuitPython Powered Internet Display PCB
+## Adafruit Matrix Portal S3 CircuitPython Powered Internet Display PCB
 
 <a href="http://www.adafruit.com/products/5778"><img src="assets/5778.jpg?raw=true" width="500px"><br/>
 Click here to purchase one from the Adafruit shop</a>
 
-PCB files for the Adafruit Adafruit Matrix Portal S3 CircuitPython Powered Internet Display.
+PCB files for the Adafruit Matrix Portal S3 CircuitPython Powered Internet Display.
 
 Format is EagleCAD schematic and board layout
 * https://www.adafruit.com/product/5778
