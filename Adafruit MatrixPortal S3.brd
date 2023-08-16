@@ -9,7 +9,7 @@
 </settings>
 <grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="10" fill="1" visible="yes" active="yes"/>
@@ -41,7 +41,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="15" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
 <layer number="50" name="ReferenceLS" color="12" fill="1" visible="no" active="yes"/>
@@ -210,8 +210,10 @@
 <dimension x1="58.547" y1="4.445" x2="58.547" y2="40.132" x3="72.263" y3="22.2885" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="2.413" y1="38.1" x2="1.905" y2="28.321" x3="-8.255" y3="33.2105" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="1.905" y1="28.321" x2="1.778" y2="18.542" x3="-8.255" y3="23.4315" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="58.42" y1="31.115" x2="63.5" y2="30.734" x3="60.96" y3="28.829" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
 <text x="14.732" y="26.035" size="1.27" layer="21" font="vector" ratio="12" align="center">Boot</text>
+<dimension x1="7.62" y1="15.875" x2="48.26" y2="15.875" x3="27.94" y3="-3.683" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="48.26" y1="35.56" x2="48.26" y2="15.875" x3="68.58" y3="25.7175" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="58.42" y1="31.115" x2="63.5" y2="31.115" x3="60.96" y3="10.414" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SmartPrj">
